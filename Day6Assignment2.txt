@@ -1,0 +1,187 @@
+Kamaldeen Alabi
+Week 2 Day 6 Assigment 2
+July 25, 2016
+
+Data members, setters and getters
+
+
+1) The size of a disk file
+
+private int diskFileSize;
+
+public void setDiskFileSize(int diskFileSize) 
+{
+    this.diskFileSize = diskFileSize;
+}
+
+public int getDiskFileSize() 
+{		
+    return diskFileSize;
+}
+
+
+2) The number of acres in a plot of land
+
+private Double plotArces;
+
+public void setPlotArces(Double plotArces) 
+{
+    this.plotArces = plotArces;
+}
+
+public Double getPlotArces() 
+{
+    return plotArces;
+}
+
+
+3) The name of a file
+
+private String file;
+
+public void setFile(String file) 
+{
+    this.file = file;
+}
+
+public String getFile() 
+{
+    return file;
+}
+
+
+4) A fully formatted phone number (i.e. "801-803-3638")
+
+private String phoneNumber = "801-803-3638";
+
+public void setPhoneNumber(String phoneNumber) 
+{
+    this.phoneNumber = phoneNumber;
+}
+
+public String getPhoneNumber() 
+{
+    return phoneNumber;
+}
+
+
+5) A company name
+
+private String companyName;
+
+public void setCompanyName(String companyName) 
+{
+    this.companyName = companyName;
+}
+
+public String getCompanyName() 
+{
+    return companyName;
+}
+
+
+6) Today's date
+
+private datetime todayDate;
+
+public void setTodayDate(datetime todayDate) 
+{
+    this.todayDate = todayDate;
+}
+
+public datetime getTodayDate() 
+{
+    return todayDate;
+}
+
+
+7) The state of a light switch
+
+private boolean lightSwitchOn = false;
+
+public void setLightSwitchOn(boolean lightSwitchOn) 
+{
+    this.lightSwitchOn = lightSwitchOn;
+}
+
+public boolean isLightSwitchOn() 
+{
+    return lightSwitchOn;
+}
+
+
+8) Pi
+
+private Float pi;
+
+public void setPi(Float pi) 
+{
+    this.pi = pi;
+}
+
+public Float getPi() 
+{
+    return pi;
+}
+
+
+9) The speed of light in a vacuum
+
+private int vacuumLightSpeed;
+
+
+public void setVacuumLightSpeed(int vacuumLightSpeed) 
+{
+    this.vacuumLightSpeed = vacuumLightSpeed;
+}
+
+public int getVacuumLightSpeed() 
+{
+    return vacuumLightSpeed;
+}
+
+
+10) An instance of a class named Vehicle
+
+private Vehicle vehicle;
+
+public void setVehicle(Vehicle vehicle) 
+{
+    this.vehicle = vehicle;
+}
+
+public Vehicle getVehicle() 
+{
+    return vehicle;
+}
+
+
+11) An instance of a class named Address
+
+private Address address;
+
+public void setAddress(Address address) 
+{
+    this.address = address;
+}
+
+public Address getAddress() 
+{
+    return address;
+}
+
+
+12) An array of instances of a class named Product
+
+private Product[] product;
+
+public void setProduct(Product[] product) 
+{
+    this.product = product;
+}
+
+public Product[] getProduct() 
+{
+    return product;
+}
+
